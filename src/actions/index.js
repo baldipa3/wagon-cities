@@ -5,5 +5,11 @@ export function setCities() {
     type: 'SET_CITIES',
     payload: cities
   }
-  debugger
+}
+
+export function activeCity(city) {
+  return {
+    type: 'ACTIVE_CITY',
+    payload: city
+  };
 }
